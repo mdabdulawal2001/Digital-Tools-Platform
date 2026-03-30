@@ -10,7 +10,7 @@ const Navbar = () => {
         <header className="navbar bg-base-100 shadow-sm px-4 md:px-10 h-20">
           {/* Navbar Left part (Logo + Mobile Menu) */}
           <div className="flex items-center flex-1">
-            <div className=" flex-none lg:hidden">
+            <div className="flex-none lg:hidden">
               <label
                 htmlFor="main-drawer"
                 className="btn btn-ghost btn-square mr-2"
