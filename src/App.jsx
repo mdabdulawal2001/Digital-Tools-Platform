@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import State_Section from './components/Banner/State_Section/State_Section'
 import Started_Section from './components/Banner/State_Section/Started_Section/Started_Section'
+import Pricing_Section from './components/Pricing_Section/Pricing_Section'
 
 function App() {
   
@@ -29,6 +30,11 @@ function App() {
         {/* started section */}
         <div className='lg:w-[85%] mx-auto'>
           <Started_Section></Started_Section>
+        </div>
+
+        {/* pricing section */}
+        <div className='lg:w-[85%] mx-auto'>
+          <Pricing_Section></Pricing_Section>
         </div>
 
         {/* footer section */}
