@@ -22,8 +22,6 @@ const cardsData = async () => {
 const dataPromise = cardsData();
 
 
-   
-  
 
   function App() {
     
@@ -50,7 +48,7 @@ const dataPromise = cardsData();
 
         {/* Premium Section */}
         <div className="lg:w-[85%] mx-auto my-14 lg:my-24">
-          <Premium_Title setActiveTab={setActiveTab}></Premium_Title>
+          <Premium_Title setActiveTab={setActiveTab} carts={carts}></Premium_Title>
           {
             activeTab === "products" ? <Premium_Section dataPromise={dataPromise} carts={carts} setCarts={setCarts}></Premium_Section>
             : <Cart carts={carts} setCarts={setCarts}></Cart>
