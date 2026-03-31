@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "DesignFlow Pro",
+    "description": "Advanced UI/UX design tool with real-time collaboration and prototyping features.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited Artboards", "Shared Components", "Prototype Export", "Team Libraries"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1162/1162939.png"
+  },
+  {
+    "id": 2,
+    "name": "CodeMaster AI",
+    "description": "AI-driven code completion and debugging assistant for full-stack developers.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Real-time Suggestion", "Bug Detection", "Multi-language Support", "Git Integration"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/606/606260.png"
+  },
+  {
+    "id": 3,
+    "name": "CloudSecure VPN",
+    "description": "Military-grade encryption with ultra-fast servers in over 60 countries.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["No-log Policy", "5 Simultaneous Devices", "Ad-blocker Built-in", "24/7 Support"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2092/2092663.png"
+  },
+  {
+    "id": 4,
+    "name": "QuickAudit SEO",
+    "description": "Comprehensive website analysis and keyword tracking tool for digital marketers.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Weekly Site Audits", "Keyword Research", "Backlink Analysis", "Competitor Tracking"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2555/2555013.png"
+  },
+  {
+    "id": 5,
+    "name": "StreamLine CRM",
+    "description": "Efficient customer relationship management for small to medium businesses.",
+    "price": 199,
+    "period": "one-time",
+    "tag": "Lifetime",
+    "tagType": "best seller",
+    "features": ["Lead Management", "Email Automation", "Analytics Dashboard", "Custom Pipelines"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1063/1063376.png"
+  },
+  {
+    "id": 6,
+    "name": "VideoCraft Studio",
+    "description": "High-speed cloud-based video rendering and editing suite for creators.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "New Update",
+    "tagType": "new",
+    "features": ["4K Rendering", "Stock Media Access", "Cloud Storage", "Direct Social Upload"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3221/3221803.png"
+  },
+  {
+    "id": 7,
+    "name": "MailPulse Pro",
+    "description": "Scalable email marketing platform with smart segmentation and automation.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Best Value",
+    "tagType": "popular",
+    "features": ["A/B Testing", "Drag-and-Drop Editor", "Smart Segmentation", "Detailed Heatmaps"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/281/281769.png"
+  },
+  {
+    "id": 8,
+    "name": "SecureVault Auth",
+    "description": "Enterprise-level password management and two-factor authentication tool.",
+    "price": 120,
+    "period": "yearly",
+    "tag": "Secure",
+    "tagType": "best seller",
+    "features": ["Zero-knowledge Privacy", "Biometric Login", "Emergency Access", "Password Audit"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3064/3064155.png"
+  },
+  {
+    "id": 9,
+    "name": "Insight Analytics",
+    "description": "Advanced user behavior tracking and data visualization dashboard.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "new",
+    "features": ["Real-time Tracking", "Custom Dashboards", "Conversion Funnels", "API Access"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/428/428532.png"
+  }
+]
