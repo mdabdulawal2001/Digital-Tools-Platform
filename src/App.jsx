@@ -32,7 +32,7 @@ const dataPromise = cardsData();
     <>
       <div className="max-w-400 mx-auto">
         {/* navbar section */}
-        <div className="lg:w-[85%] mx-auto">
+        <div className="lg:w-[85%] mx-auto sticky top-0 z-50">
           <Navbar carts={carts}></Navbar>
         </div>
 

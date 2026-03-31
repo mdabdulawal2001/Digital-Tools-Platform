@@ -7,7 +7,7 @@ const Navbar = ({carts}) => {
       <input id="main-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar Container */}
-        <header className="navbar bg-base-100 shadow-sm px-4 md:px-10 h-20">
+        <header className=" navbar bg-base-100 shadow-sm px-4 md:px-10 h-20">
           {/* Navbar Left part (Logo + Mobile Menu) */}
           <div className="flex items-center flex-1">
             <div className="flex-none lg:hidden">
