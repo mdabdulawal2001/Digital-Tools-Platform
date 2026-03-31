@@ -49,7 +49,7 @@
     "description": "Efficient customer relationship management for small to medium businesses.",
     "price": 199,
     "period": "one-time",
-    "tag": "Lifetime",
+    "tag": "Best Seller",
     "tagType": "best seller",
     "features": ["Lead Management", "Email Automation", "Analytics Dashboard", "Custom Pipelines"],
     "icon": "https://cdn-icons-png.flaticon.com/512/1063/1063376.png"
@@ -60,21 +60,10 @@
     "description": "High-speed cloud-based video rendering and editing suite for creators.",
     "price": 39,
     "period": "monthly",
-    "tag": "New Update",
+    "tag": "New",
     "tagType": "new",
     "features": ["4K Rendering", "Stock Media Access", "Cloud Storage", "Direct Social Upload"],
     "icon": "https://cdn-icons-png.flaticon.com/512/3221/3221803.png"
-  },
-  {
-    "id": 7,
-    "name": "MailPulse Pro",
-    "description": "Scalable email marketing platform with smart segmentation and automation.",
-    "price": 25,
-    "period": "monthly",
-    "tag": "Best Value",
-    "tagType": "popular",
-    "features": ["A/B Testing", "Drag-and-Drop Editor", "Smart Segmentation", "Detailed Heatmaps"],
-    "icon": "https://cdn-icons-png.flaticon.com/512/281/281769.png"
   },
   {
     "id": 8,
@@ -82,10 +71,21 @@
     "description": "Enterprise-level password management and two-factor authentication tool.",
     "price": 120,
     "period": "yearly",
-    "tag": "Secure",
+    "tag": "Best Seller",
     "tagType": "best seller",
     "features": ["Zero-knowledge Privacy", "Biometric Login", "Emergency Access", "Password Audit"],
     "icon": "https://cdn-icons-png.flaticon.com/512/3064/3064155.png"
+  },
+  {
+    "id": 7,
+    "name": "MailPulse Pro",
+    "description": "Scalable email marketing platform with smart segmentation and automation.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["A/B Testing", "Drag-and-Drop Editor", "Smart Segmentation", "Detailed Heatmaps"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/281/281769.png"
   },
   {
     "id": 9,
@@ -93,7 +93,7 @@
     "description": "Advanced user behavior tracking and data visualization dashboard.",
     "price": 59,
     "period": "monthly",
-    "tag": "Trending",
+    "tag": "New",
     "tagType": "new",
     "features": ["Real-time Tracking", "Custom Dashboards", "Conversion Funnels", "API Access"],
     "icon": "https://cdn-icons-png.flaticon.com/512/428/428532.png"

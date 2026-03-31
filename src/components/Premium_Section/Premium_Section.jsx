@@ -1,9 +1,9 @@
 import React, { use } from "react";
 import Single_Card from "./Single_Card";
 
-const Premium_Section = ({dataPromise}) => {
-    const data = use(dataPromise);
-    
+const Premium_Section = ({ dataPromise }) => {
+  const data = use(dataPromise);
+
   return (
     <div>
       {/* title part */}
@@ -38,12 +38,11 @@ const Premium_Section = ({dataPromise}) => {
       </div>
 
       {/* loop all cards */}
-        {
-            data?.map(d => <Single_Card d={d} key={d.id}></Single_Card>
-            )
-        }
-
-        
+      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-15">
+        {data?.map((d) => (
+          <Single_Card d={d} key={d.id}></Single_Card>
+        ))}
+      </div>
     </div>
   );
 };
