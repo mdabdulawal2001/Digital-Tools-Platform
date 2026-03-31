@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import Cart from "./Cart";
 
-const Single_Card = ({ d }) => {
-  console.log(d);
+const Single_Card = ({ d, carts, setCarts }) => {
+
+  
+  const [isBuyNow, setIsBuyNow] = useState(false);
+
+  const handleBuyBtn = () =>{
+    setIsBuyNow(true);
+    setCarts([...carts, d]);
+  }
 
   return (
     <div>
@@ -46,7 +54,9 @@ const Single_Card = ({ d }) => {
             }
           </ul>
           <div className="mt-6">
-            <button className="rounded-full btn btn-primary btn-block">Subscribe</button>
+            <button onClick={handleBuyBtn} className="rounded-full btn btn-primary btn-block">
+              {isBuyNow ? "Added to cart" : "Buy Now"}
+            </button>
           </div>
         </div>
       </div>
