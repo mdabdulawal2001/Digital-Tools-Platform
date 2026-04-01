@@ -38,7 +38,7 @@ const Cart = ({ carts, setCarts }) => {
                 <div className="flex flex-col md:flex-row gap-4 items-center my-4">
                   {/* icon */}
                   <div className="border bg-white/80 border-[#F2F2F2] rounded-full p-3 w-16 flex justify-center items-center">
-                    <img className="w-10" src={cart.icon} alt="" />
+                    <img className="w-10 rounded-lg" src={cart.icon} alt="" />
                   </div>
                   <div className="flex flex-col items-center md:items-start">
                     <h3 className="text-2xl font-bold">{cart.name}</h3>

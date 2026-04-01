@@ -35,7 +35,7 @@ const Single_Card = ({ d, carts, setCarts }) => {
           <div className="space-y-4">
             {/* icon */}
             <div className="border border-[#F2F2F2] rounded-full p-3 w-16 flex justify-center items-center">
-              <img className="w-10" src={d.icon} alt="" />
+              <img className="w-10 rounded-lg" src={d.icon} alt="" />
             </div>
             <h2 className="text-3xl font-bold">{d.name}</h2>
             <p className="text-[#627382]">
