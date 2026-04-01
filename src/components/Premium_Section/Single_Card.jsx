@@ -24,7 +24,7 @@ const Single_Card = ({ d, carts, setCarts }) => {
   return (
     <div>
       {/* dynamic card */}
-      <div className="mx-auto rounded-3xl card w-96 bg-base-100 border border-[#d5d2d2] shadow-sm hover:lg:scale-105 transition-all hover:shadow-md">
+      <div id="products" className="scroll-mt-52 mx-auto rounded-3xl card w-96 bg-base-100 border border-[#d5d2d2] shadow-sm hover:lg:scale-105 transition-all hover:shadow-md">
         <div className="card-body">
           {/* badge */}
           <div className={`ml-auto badge badge-lg ${d.tagType === "best seller"? "rounded-2xl badge-warning font-bold text-[#BB4D00] bg-[#FEF3C6]" : d.tagType === "popular"? "badge-info text-[#4F39F6] font-bold bg-[#E1E7FF] rounded-2xl" : "rounded-2xl font-bold badge-success text-[#0A883E] bg-[#DBFCE7]"}`}>
@@ -64,7 +64,7 @@ const Single_Card = ({ d, carts, setCarts }) => {
             }
           </ul>
           <div className="mt-6">
-            <button onClick={handleBuyBtn} className={`rounded-full ${isBuyNow ? "btn btn-success btn-block" : "btn btn-primary btn-block"}`}>
+            <button onClick={handleBuyBtn} className={`rounded-full ${isBuyNow ? "btn btn-success btn-block text-white font-bold" : "btn btn-primary btn-block"}`}>
               {isBuyNow ? "Added to cart" : "Buy Now"}
             </button>
           </div>

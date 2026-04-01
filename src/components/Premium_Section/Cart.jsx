@@ -1,4 +1,5 @@
 import React from "react";
+import { CiShoppingCart } from "react-icons/ci";
 import { toast } from "react-toastify";
 
 const Cart = ({ carts, setCarts }) => {
@@ -16,13 +17,14 @@ const Cart = ({ carts, setCarts }) => {
   const totalPrice = carts.reduce((sum, cart) => sum + cart.price, 0);
 
   return (
-    <div className="bg-[#F2F2F2] p-6 rounded-2xl my-10 w-[95%] mx-auto">
+    <div id="cart-section" className="scroll-mt-45 bg-[#F2F2F2] p-6 rounded-2xl my-10 w-[95%] mx-auto">
       <h1 className="my-4 text-3xl font-bold text-center md:text-left">
         Your Cart
       </h1>
       {carts.length === 0 ? (
-        <div className="flex justify-center h-30 my-6 md:my-10">
-          <p className="text-3xl font-bold">Cart is Empty</p>
+        <div className="flex flex-col items-center justify-center h-30 my-6 md:my-10 space-y-6">
+          <div><CiShoppingCart className="text-6xl" /></div>
+          <p className="text-2xl md:text-3xl font-bold">Your Cart is Empty</p>
         </div>
       ) : (
         <div>
