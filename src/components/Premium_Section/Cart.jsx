@@ -6,12 +6,16 @@ const Cart = ({ carts, setCarts }) => {
   const handleDeleteCart = (id) => {
     const currentData = carts.filter((cart) => cart.id !== id);
     setCarts(currentData);
-    toast.info("Item Removed from Cart")
+    toast.info("Item Removed from Cart", {
+      className : "text-xs sm:text-sm md:text-base px-3 py-2 sm:px-4 sm:py-3 max-w-65 sm:max-w-sm"
+    })
   };
 
   const handleRemoveItem = () => {
     setCarts([])
-    toast.success("Proceeding to checkout...")
+    toast.success("Proceeding to checkout...", {
+      className : "text-xs sm:text-sm md:text-base px-3 py-2 sm:px-4 sm:py-3 max-w-65 sm:max-w-sm"
+    })
   }
 
   const totalPrice = carts.reduce((sum, cart) => sum + cart.price, 0);

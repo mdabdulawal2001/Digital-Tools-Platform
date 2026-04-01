@@ -18,7 +18,9 @@ const Single_Card = ({ d, carts, setCarts }) => {
     }
 
     setCarts([...carts, d]);
-    toast.success("Item Added To Cart")
+    toast.success("Item Added To Cart", {
+      className : "text-xs sm:text-sm md:text-base px-3 py-2 sm:px-4 sm:py-3 max-w-65 sm:max-w-sm"
+    })
   }
 
   return (
