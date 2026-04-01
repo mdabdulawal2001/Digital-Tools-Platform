@@ -24,15 +24,15 @@ Key functionalities include adding items to cart, removing individual items, cle
 
 ---
 
-## Tech Stack
+## Technologies Used
 
--  React  
+-  React.js  
 -  Tailwind CSS  
 -  DaisyUI  
 -  JavaScript (ES6+)  
--  React Toastify  
+-  React-Toastify (NPM Package) 
 -  React Icons  
--  JSON Data Handling  
+-  JSON (for product data)  
 
 ---
 
@@ -47,7 +47,7 @@ Key functionalities include adding items to cart, removing individual items, cle
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 -  React state management (`useState`)  
 -  Component-based architecture  
