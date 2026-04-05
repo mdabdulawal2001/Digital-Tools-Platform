@@ -1,37 +1,46 @@
-import React, { useState } from "react";
+import React from "react";
 import Cart from "./Cart";
 import { toast } from "react-toastify";
 
 const Single_Card = ({ d, carts, setCarts }) => {
+  const isAdded = carts.some((cart) => cart.id === d.id);
 
-  
-  const [isBuyNow, setIsBuyNow] = useState(false);
+  const handleBuyBtn = () => {
+    const isFound = carts.find((cart) => cart.id === d.id);
 
-  const handleBuyBtn = () =>{
-    setIsBuyNow(true);
-
-    const isFound = carts.find(cart => cart.id === d.id);
-    
-    if(isFound) {
+    if (isFound) {
       toast.error("Item Already In Cart", {
-        className : "text-xs sm:text-sm md:text-base px-3 py-2 sm:px-4 sm:py-3 max-w-65 sm:max-w-sm"
+        className:
+          "text-xs sm:text-sm md:text-base px-3 py-2 sm:px-4 sm:py-3 max-w-65 sm:max-w-sm",
       });
-      return
+      return;
     }
 
     setCarts([...carts, d]);
     toast.success("Item Added To Cart", {
-      className : "text-xs sm:text-sm md:text-base px-3 py-2 sm:px-4 sm:py-3 max-w-65 sm:max-w-sm"
-    })
-  }
+      className:
+        "text-xs sm:text-sm md:text-base px-3 py-2 sm:px-4 sm:py-3 max-w-65 sm:max-w-sm",
+    });
+  };
 
   return (
     <div>
       {/* dynamic card */}
-      <div id="products" className="scroll-mt-52 mx-auto rounded-3xl card w-96 bg-base-100 border border-[#d5d2d2] shadow-sm hover:lg:scale-105 transition-all hover:shadow-md">
+      <div
+        id="products"
+        className="scroll-mt-52 mx-auto rounded-3xl card w-96 bg-base-100 border border-[#d5d2d2] shadow-sm hover:lg:scale-105 transition-all hover:shadow-md"
+      >
         <div className="card-body">
           {/* badge */}
-          <div className={`ml-auto badge badge-lg ${d.tagType === "best seller"? "rounded-2xl badge-warning font-bold text-[#BB4D00] bg-[#FEF3C6]" : d.tagType === "popular"? "badge-info text-[#4F39F6] font-bold bg-[#E1E7FF] rounded-2xl" : "rounded-2xl font-bold badge-success text-[#0A883E] bg-[#DBFCE7]"}`}>
+          <div
+            className={`ml-auto badge badge-lg ${
+              d.tagType === "best seller"
+                ? "rounded-2xl badge-warning font-bold text-[#BB4D00] bg-[#FEF3C6]"
+                : d.tagType === "popular"
+                ? "badge-info text-[#4F39F6] font-bold bg-[#E1E7FF] rounded-2xl"
+                : "rounded-2xl font-bold badge-success text-[#0A883E] bg-[#DBFCE7]"
+            }`}
+          >
             {d.tag}
           </div>
           <div className="space-y-4">
@@ -40,36 +49,42 @@ const Single_Card = ({ d, carts, setCarts }) => {
               <img className="w-10 rounded-lg" src={d.icon} alt="" />
             </div>
             <h2 className="text-3xl font-bold">{d.name}</h2>
-            <p className="text-[#627382]">
-              {d.description}
-            </p>
-            <span className="text-xl"><span className="font-bold text-2xl">${d.price}</span>/{d.period}</span>
+            <p className="text-[#627382]">{d.description}</p>
+            <span className="text-xl">
+              <span className="font-bold text-2xl">${d.price}</span>/{d.period}
+            </span>
           </div>
           <ul className="mt-4 flex flex-col gap-2 text-xs">
-            {
-              d.features.map((el, i) => <li key={i}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-4 me-2 inline-block text-success"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
-              </svg>
-              <span>{el}</span>
-            </li>
-              )
-            }
+            {d.features.map((el, i) => (
+              <li key={i}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="size-4 me-2 inline-block text-success"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span>{el}</span>
+              </li>
+            ))}
           </ul>
           <div className="mt-6">
-            <button onClick={handleBuyBtn} className={`rounded-full ${isBuyNow ? "btn btn-success btn-block text-white font-bold" : "btn btn-primary btn-block"}`}>
-              {isBuyNow ? "Added to cart" : "Buy Now"}
+            <button
+              onClick={handleBuyBtn}
+              className={`rounded-full ${
+                isAdded
+                  ? "btn btn-success btn-block text-white font-bold"
+                  : "btn btn-primary btn-block"
+              }`}
+            >
+              {isAdded ? "Added to cart" : "Buy Now"}
             </button>
           </div>
         </div>
