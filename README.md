@@ -54,5 +54,11 @@ Building this project helped me master several crucial React and UI/UX concepts:
 
 ### 📸 Screenshots
 
+<img width="1782" height="862" alt="Screenshot 2026-04-09 213214" src="https://github.com/user-attachments/assets/85f79a82-85ab-4ace-86bc-132dfa4f6bb3" />
+
+<img width="1507" height="695" alt="Screenshot 2026-04-09 213420" src="https://github.com/user-attachments/assets/ab3d1c28-5853-465c-badd-90d23ea8cd04" />
+
+<img width="1433" height="718" alt="Screenshot 2026-04-09 213601" src="https://github.com/user-attachments/assets/f00b6ffc-7a96-4b70-b106-61ec7df93ebd" />
+
 
 ---
