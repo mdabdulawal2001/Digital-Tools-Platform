@@ -90,4 +90,10 @@ Follow these steps to set up the project on your local machine:
 4. **Start the development server:**
     ```Bash
     npm run dev
-    
+
+---
+
+<p align="center">
+Developed with ❤️ by <b>MD. ABDUL AWAL TOHA</b>
+</p>
+
