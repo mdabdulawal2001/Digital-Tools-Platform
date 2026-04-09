@@ -81,14 +81,14 @@ Follow these steps to set up the project on your local machine:
 
    
 2. **Navigate to the project folder:**
-   Bash
+   ```Bash
    cd Digital-Tools-Platform
 
 3. **Install all dependencies:**
-   Bash
-   npm install i
+   ```Bash
+   npm install 
 
 4. **Start the development server:**
-    Bash
+    ```Bash
     npm run dev
     
