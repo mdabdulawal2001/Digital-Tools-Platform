@@ -1,5 +1,6 @@
 # 🛒 React Cart & Tab Management Project
 
+### 📝 Project Overview
 This is a React-based frontend project built to strengthen core React concepts through practical implementation. The project focuses on real-world UI interaction, state management, and component-based architecture. It simulates modern e-commerce features like dynamic product listings, cart management, and real-time calculations.
 
 <p align="center">
@@ -13,6 +14,18 @@ This is a React-based frontend project built to strengthen core React concepts t
 
 ---
 
+### 📸 Screenshots
+
+<p align="center">
+  <img alt="Project Banner" src="https://github.com/user-attachments/assets/85f79a82-85ab-4ace-86bc-132dfa4f6bb3" width="100%" />
+</p>
+
+<p align="center">
+  <img alt="Product Listing" src="https://github.com/user-attachments/assets/ab3d1c28-5853-465c-badd-90d23ea8cd04" width="48%" />
+  <img alt="Cart System" src="https://github.com/user-attachments/assets/f00b6ffc-7a96-4b70-b106-61ec7df93ebd" width="48%" />
+</p>
+
+---
 
 ### 🚀 Key Features
 
@@ -20,7 +33,7 @@ This is a React-based frontend project built to strengthen core React concepts t
 - **📑 Tab-based UI:** Organized system for better content navigation and discovery.
 - **🛒 Smart Cart System:** - Add items to the cart effortlessly.
   - Remove individual items or clear the entire cart in one click.
-  - Real-time total price calculation and item counter.
+  - Real-time total price calculation and live cart item counter.
 - **🔔 Interactive Feedback:** Integrated toast notifications for every user action.
 - **🖱️ Smooth Navigation:** Seamless scrolling between different sections for a polished UX.
 - **📱 Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
@@ -33,32 +46,49 @@ This is a React-based frontend project built to strengthen core React concepts t
   <img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css" />
 </p>
 
-- **React.js:** Core library for building the component-based UI.
-- **Tailwind CSS & DaisyUI:** For rapid, modern, and utility-first styling.
-- **JavaScript (ES6+):** Modern syntax, including Arrow Functions and Array methods.
-- **React-Toastify:** For professional notification system.
-- **React Icons:** To enhance visual cues across the application.
+- **React.js:** Core library for component-based architecture.
+- **Tailwind CSS & DaisyUI:** For modern, responsive styling.
+- **JavaScript (ES6+):** Logical implementation with modern syntax.
+
+---
+
+### 📦 Dependencies Used
+The following libraries were used to enhance the application's functionality:
+
+- `react`: ^18.x
+- `react-dom`: ^18.x
+- `react-toastify`: For interactive toast notifications.
+- `react-icons`: For scalable vector icons.
+- `daisyui`: For pre-designed UI components.
 
 ---
 
 ### 🧠 What I Learned
-
-Building this project helped me master several crucial React and UI/UX concepts:
 - **State Management:** Efficient use of `useState` to handle cart and tab logic.
 - **Component Architecture:** Breaking down complex UI into reusable functional components.
-- **Props Flow:** Understanding data flow and event handling between parent and child components.
+- **Props Flow:** Managing data flow and event handling between parent and child components.
 - **Conditional Rendering:** Dynamically showing/hiding elements based on application state.
-- **NPM Integration:** Working with external libraries like React-Toastify and React Icons.
 
 ---
 
-### 📸 Screenshots
+### 🏗️ How to Run Locally
 
-<img width="1782" height="862" alt="Screenshot 2026-04-09 213214" src="https://github.com/user-attachments/assets/85f79a82-85ab-4ace-86bc-132dfa4f6bb3" />
+Follow these steps to set up the project on your local machine:
 
-<img width="1507" height="695" alt="Screenshot 2026-04-09 213420" src="https://github.com/user-attachments/assets/ab3d1c28-5853-465c-badd-90d23ea8cd04" />
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/mdabdulawal2001/Digital-Tools-Platform.git](https://github.com/mdabdulawal2001/Digital-Tools-Platform.git)
 
-<img width="1433" height="718" alt="Screenshot 2026-04-09 213601" src="https://github.com/user-attachments/assets/f00b6ffc-7a96-4b70-b106-61ec7df93ebd" />
+   
+2. **Navigate to the project folder:**
+   Bash
+   cd Digital-Tools-Platform
 
+3. **Install all dependencies:**
+   Bash
+   npm install i
 
----
+4. **Start the development server:**
+    Bash
+    npm run dev
+    
