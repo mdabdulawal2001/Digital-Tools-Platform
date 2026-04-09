@@ -77,7 +77,7 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/mdabdulawal2001/Digital-Tools-Platform.git](https://github.com/mdabdulawal2001/Digital-Tools-Platform.git)
+   git clone https://github.com/mdabdulawal2001/Digital-Tools-Platform.git
 
    
 2. **Navigate to the project folder:**
