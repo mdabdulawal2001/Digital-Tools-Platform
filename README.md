@@ -1,4 +1,4 @@
-# 🛒 React Cart & Tab Management Project
+# 🛒 Digital-Tools-Platform (React Cart & Tab Management Project)
 
 ### 📝 Project Overview
 This is a React-based frontend project built to strengthen core React concepts through practical implementation. The project focuses on real-world UI interaction, state management, and component-based architecture. It simulates modern e-commerce features like dynamic product listings, cart management, and real-time calculations.
